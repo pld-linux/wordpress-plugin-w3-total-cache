@@ -9,6 +9,7 @@ Source0:	http://downloads.wordpress.org/plugin/w3-total-cache.%{version}.zip
 # Source0-md5:	f6449b43ab5162abf071424eb76341d3
 URL:		http://wordpress.org/extend/plugins/w3-total-cache/
 BuildRequires:	rpmbuild(macros) >= 1.553
+BuildRequires:	unzip
 Requires:	webapps
 Requires:	webserver(php)
 Requires:	wordpress >= 2.8
